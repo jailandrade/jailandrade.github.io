@@ -10,4 +10,4 @@ I've decided to start blogging because I need to show my experience and experime
 
 Although I love harpjs, Github Pages offers support for Jekyll and I want to experiment new things.
 
-Let's go to post
+Let's go to post.
