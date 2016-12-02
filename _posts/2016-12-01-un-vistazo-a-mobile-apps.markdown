@@ -13,4 +13,12 @@ Pero bueno, digamos estas convencido de que necesitas una aplicación para insta
 
 Los costos varian pero la recomendación (y razón de este post) es sobre que involucra desarrollar una aplicación movil, en el entendido que no solo es el programa que se instala en tu dispositivo movil sino como esta se comunica con los datos que necesita para funcionar. Porque tu aplicacion necesita comunicarse (en la mayoria de los casos) con otras aplicaciones, normalmente con servidores para almacenar y consultar datos. Y esto tambien toma tiempo desarrollarlo y por consecuente cuesta mas.
 
-Si me sigues hasta aqui el mensaje que te estoy dando a entender es que una aplicacion movil es solo un caparazon sino se comunica con el mundo exterior. A menos que construyas una aplicacion cuya informacion se guarde toda en tu dispositivo.
+Si me sigues hasta aqui el mensaje que te estoy dando a entender es que una aplicacion movil moderna necesita enviar y recibir datos de fuentes externas y a menos que cuentes con un API (Application Programming Interface) construida (y a veces cuando ya la tienes construida) el precio aumenta. Dependiendo la tecnologia y las caracteristicas que requieres que use tu aplicación.
+
+Entonces el costo de una aplicación movil no es el costo total del proyecto, y es algo que debes tomar en cuenta al momento de solicitar una cotización. 
+
+Ahora volvamos a un sitio web responsivo y progresivo. Estos tambien pueden funcionar utilizando recursos externos, pero a diferencia de una aplicación movil, el tiempo de desarrollo es menor dado que se puede construir utilizando solo HTML, CSS y JavaScript. Otra ventaja es que es le ahorras espacio al usuario en su telefono movil porque no necesitas instalar aunque si puedes hacer que reciba notificaciones push, se guarden datos en la memoria del celular y recuerde las preferencias, a un costo mucho menor que desarrollar una aplicación movil.
+
+Si estas pensando en desarrollar una aplicación movil piensalo antes de invertir, puede que lo que necesites en realidad sea un sitio web que sea responsivo y progresivo. 
+
+_Si estas buscando cotización para tu siguiente proyecto enviame un email a jailandrade@gmail.com y con gusto te atendere._
