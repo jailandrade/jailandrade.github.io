@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Profile</title>
+
+    <style>
+      *,
+      *:before,
+      *:after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        box-sizing: inherit;
+      }
+
+      body {
+        background-color: #21abcd;
+
+        font-size: 1.1rem;
+        line-height: 1.4;
+      }
+
+      .page {
+        background-color: #fff;
+        margin: 2em;
+        padding: 2em;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-column-gap: 2em;
+        border-radius: 4px;
+        box-shadow: 1px 1px 1px #aaa;
+      }
+
+      .thumbnail img {
+        max-width: 100%;
+      }
+
+      .skills {
+        padding: 2em 0;
+      }
+
+      .skills .skills-title {
+        border-bottom: 1px solid #999;
+        color: #444;
+        line-height: 0.6;
+        margin: 0;
+      }
+
+      .skills-list {
+      }
+
+      .skills-list li {
+        list-style: none;
+        margin: 0.35em 0;
+      }
+
+      .content .content-header h1 {
+        color: #333;
+        margin: 0.15em 0;
+      }
+
+      .content .content-header p {
+        margin: 0.15em 0;
+        font-size: 1.15rem;
+        color: #666;
+      }
+
+      .content .content-header .content-title {
+        color: #cd21ab;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <aside class="sidebar">
+        <div class="thumbnail">
+          <img src="https://avatars2.githubusercontent.com/u/512046?s=460&v=4" alt="Thumbnail jail">
+        </div>
+        <div class="skills">
+          <h2 class="skills-title">Skills</h2>
+          <ul class="skills-list">
+            <li>Web design</li>
+            <li>Mobile app development</li>
+            <li>Web accesibility</li>
+            <li>Web development</li>
+            <li>API design</li>
+          </ul>
+        </div>
+      </aside>
+      <main class="content">
+        <header class="content-header">
+          <h1>Mikhail Cruz Andrade</h1>
+          <p><span class="content-title">Web developer </span>| Xalapa or Remote</p>
+        </header>
+        <section class="content-summary">
+          <dl>
+            <dt>Backend developer - Hostapet (2018-present)</dt>
+            <dd>I work as the lead backend developer mantaining the architect of the system</dd>
+            <dt>Frontend developer - Nubo (2018)</dt>
+            <dd>I worked as a frontend engineer specialist in Angular designing several web applications</dd>
+            <dt>Frontend developer - Koneksys (2017)</dt>
+            <dd>I worked building web applications for linked data using Angular and React</dd>
+            <dt>Fullstack Web Developer - Agile Kitchen (2015-2017)</dt>
+            <dd>I worked designing, building and mantaining several web applications for startups</dd>
+          </dl>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
