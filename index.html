@@ -2,8 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Profile</title>
+    <title>@jailandrade</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
     <style>
       *,
       *:before,
@@ -19,20 +21,32 @@
 
       body {
         background-color: #21abcd;
-
         font-size: 1.1rem;
-        line-height: 1.4;
+        line-height: 1.9;
+        font-family: 'Muli', sans-serif;
       }
 
       .page {
         background-color: #fff;
         margin: 2em;
         padding: 2em;
+
         display: grid;
         grid-template-columns: 1fr 4fr;
-        grid-column-gap: 2em;
+        grid-column-gap: 1em;
+
         border-radius: 4px;
         box-shadow: 1px 1px 1px #aaa;
+      }
+
+      .sidebar {
+        padding: 0 1em;
+        border-right: 1px solid #888;
+        display: block;
+      }
+
+      .sidebar:hover {
+        transform: scale3d(1.1, 1.1, 1.25);
       }
 
       .thumbnail img {
@@ -46,7 +60,7 @@
       .skills .skills-title {
         border-bottom: 1px solid #999;
         color: #444;
-        line-height: 0.6;
+        line-height: 0.8;
         margin: 0;
       }
 
@@ -55,7 +69,10 @@
 
       .skills-list li {
         list-style: none;
-        margin: 0.35em 0;
+      }
+
+      .content-header {
+        padding: 1em 0;
       }
 
       .content .content-header h1 {
@@ -72,6 +89,19 @@
       .content .content-header .content-title {
         color: #cd21ab;
         font-weight: bold;
+      }
+
+      .content-summary {
+        padding: 2em 0;
+        border-top: 1px solid #888;
+      }
+
+      .content-summary dt {
+        font-weight: bold;
+      }
+
+      .content-summary dd {
+        margin-left: 1em;
       }
     </style>
   </head>
@@ -95,7 +125,10 @@
       <main class="content">
         <header class="content-header">
           <h1>Mikhail Cruz Andrade</h1>
-          <p><span class="content-title">Web developer </span>| Xalapa or Remote</p>
+          <p>
+            <span class="content-title">Web developer</span>
+            <span><i class="fas fa-map-marker-alt"></i> Xalapa or Remote</span>
+          </p>
         </header>
         <section class="content-summary">
           <dl>
@@ -108,6 +141,9 @@
             <dt>Fullstack Web Developer - Agile Kitchen (2015-2017)</dt>
             <dd>I worked designing, building and mantaining several web applications for startups</dd>
           </dl>
+        </section>
+        <section class="content-information">
+          
         </section>
       </main>
     </div>
